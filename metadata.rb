@@ -1,0 +1,10 @@
+name 'docker-swarm'
+maintainer 'The Authors'
+maintainer_email 'you@example.com'
+license 'all_rights'
+description 'Installs/Configures docker-swarm'
+long_description 'Installs/Configures docker-swarm'
+version '0.1.0'
+
+depends 'consul'
+depends 'docker'
