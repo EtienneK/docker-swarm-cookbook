@@ -2,7 +2,7 @@
     "name": "swarm-manager",
     "run_list": [
         "recipe[docker-swarm::consul-server]",
-        "recipe[docker-swarm::docker]",
-        "recipe[docker-swarm::swarm-manager]"
+        "recipe[docker-swarm::swarm-manager]",
+        "recipe[docker-swarm::swarm-node]"
     ]
 }

@@ -1,1 +1,2 @@
-default['consul-cluster']['config']['bootstrap_expect'] = 3
+
+default['consul']['config']['encrypt'] = '4OrhFdHOSjoihgLBlQ3Ouw=='
